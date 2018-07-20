@@ -5,7 +5,7 @@ import isFunction from 'lodash/isFunction'
 import { handleError } from 'lib/util'
 
 /**
- * memoization which only remembers the latest invocation
+ * function to memoization remembers the latest invocation
  */
 function memoize(fn: any, compare?: TFunction): any {
   if (!isFunction(fn)) {

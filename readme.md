@@ -7,6 +7,50 @@
 
 ome functions help you save time processing, easy to use!
 
+## install
+
+```bash
+# use npm
+$ npm install helper-fn
+
+# or yarn
+$ yarn add helper-fn
+```
+
+## usage
+
+```javascript
+// default import
+import { sliceObjectByKeys, memoize } from 'helper-fn'
+
+// another way to reduce size
+import sliceObjectByKeys from 'helper-fn/dist/lib/sliceObjectByKeys'
+import memoize from 'helper-fn/dist/lib/memoize'
+```
+
+## functions
+
+### sliceObjectByKeys
+
+clone object from another object by keys, [read more](https://github.com/lamhieu-vk/helper-fn/blob/master/examples/sliceObjectByKeys.md)
+
+```javascript
+import { sliceObjectByKeys } from 'helper-fn' //use  default import
+
+import sliceObjectByKeys from 'helper-fn/dist/lib/sliceObjectByKeys' // or reduce size
+```
+
+### memoize
+
+function to memoization remembers the latest invocation, [read more](https://github.com/lamhieu-vk/helper-fn/blob/master/examples/memoize.md)
+
+```javascript
+import { memoize } from 'helper-fn' //use  default import
+
+import memoize from 'helper-fn/dist/lib/memoize' // or reduce size
+```
+
+
 [npm-url]: https://npmjs.org/package/helper-fn
 [npm-version-image]: https://badge.fury.io/js/helper-fn.svg
 [npm-downloads-image]: https://img.shields.io/npm/dm/helper-fn.svg
