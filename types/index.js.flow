@@ -1,0 +1,7 @@
+/* eslint-disable no-unused-vars */
+
+type TObject = { [key: string]: any }
+
+type TKeys = any[]
+
+type TFunction = any
