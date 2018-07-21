@@ -11,7 +11,7 @@ you can quickly clone a object by some keys from a object. fast and optimized pe
 import { sliceObjectByKeys } from 'helper-fn'
 
 // another way to reduce size
-import sliceObjectByKeys from 'helper-fn/dist/lib/sliceObjectByKeys'
+import sliceObjectByKeys from 'helper-fn/dist/sliceObjectByKeys'
 
 const object = {
   a: 'value of a',

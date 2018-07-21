@@ -11,7 +11,7 @@ function to memoization remembers the latest invocation. optimized performance w
 import { memoize } from 'helper-fn'
 
 // another way to reduce size
-import memoize from 'helper-fn/dist/lib/memoize'
+import memoize from 'helper-fn/dist/memoize'
 
 // normal function
 const doSomething = function(a, b) {

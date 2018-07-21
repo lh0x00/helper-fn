@@ -5,7 +5,7 @@
 [![github issues][github-issues-image]][github-issues-url]
 [![build status][travis-image]][npm-url]
 
-ome functions help you save time processing, easy to use!
+some functions help you save time processing, easy to use!
 
 ## install
 
@@ -24,8 +24,8 @@ $ yarn add helper-fn
 import { sliceObjectByKeys, memoize } from 'helper-fn'
 
 // another way to reduce size
-import sliceObjectByKeys from 'helper-fn/dist/lib/sliceObjectByKeys'
-import memoize from 'helper-fn/dist/lib/memoize'
+import sliceObjectByKeys from 'helper-fn/dist/sliceObjectByKeys'
+import memoize from 'helper-fn/dist/memoize'
 ```
 
 ## functions
@@ -37,7 +37,7 @@ clone object from another object by keys, [read more](https://github.com/lamhieu
 ```javascript
 import { sliceObjectByKeys } from 'helper-fn' //use  default import
 
-import sliceObjectByKeys from 'helper-fn/dist/lib/sliceObjectByKeys' // or reduce size
+import sliceObjectByKeys from 'helper-fn/dist/sliceObjectByKeys' // or reduce size
 ```
 
 ### memoize
@@ -47,7 +47,7 @@ function to memoization remembers the latest invocation, [read more](https://git
 ```javascript
 import { memoize } from 'helper-fn' //use  default import
 
-import memoize from 'helper-fn/dist/lib/memoize' // or reduce size
+import memoize from 'helper-fn/dist/memoize' // or reduce size
 ```
 
 

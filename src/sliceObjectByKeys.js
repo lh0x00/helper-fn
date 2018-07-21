@@ -1,5 +1,5 @@
 /* @flow */
-import memoize from 'lib/memoize'
+import memoize from 'memoize'
 import isObject from 'lodash/isObject'
 import isArray from 'lodash/isArray'
 import { handleError, handleWarning } from 'lib/util'

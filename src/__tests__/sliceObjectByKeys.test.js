@@ -1,6 +1,6 @@
 /* @flow */
 
-import sliceObjectByKeys from 'lib/sliceObjectByKeys'
+import sliceObjectByKeys from 'sliceObjectByKeys'
 
 describe('success', () => {
   const obj = { a: 'value of a', b: 'value of b', c: 'value of c' }

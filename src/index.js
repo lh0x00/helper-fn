@@ -1,5 +1,5 @@
-import memoize from 'lib/memoize'
-import sliceObjectByKeys from 'lib/sliceObjectByKeys'
+import memoize from 'memoize'
+import sliceObjectByKeys from 'sliceObjectByKeys'
 
 export default {
   memoize,
