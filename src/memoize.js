@@ -7,10 +7,10 @@ import { handleError } from 'lib/util'
 /**
  * function to memoization remembers the latest invocation
  */
-function memoize(fn: any, compare?: TFunction): any {
+function memoize(fn: TFunction, compare?: TFunction): TFunction {
   if (!isFunction(fn)) {
     handleError('first argument (fn) must be a function')
-    return null
+    return () => fn
   }
 
   if (compare && !isFunction(fn)) {
