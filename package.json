@@ -1,6 +1,6 @@
 {
   "name": "helper-fn",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "some functions help you save time processing, easy to use!",
   "main": "dist/index.js",
   "scripts": {
