@@ -50,6 +50,16 @@ import { memoize } from 'helper-fn' //use  default import
 import memoize from 'helper-fn/dist/memoize' // or reduce size
 ```
 
+### capitalizeFirstLetter
+
+capitalize first letter [read more](https://github.com/lamhieu-vk/helper-fn/blob/master/examples/capitalizeFirstLetter.md)
+
+```javascript
+import { capitalizeFirstLetter } from 'helper-fn' //use  default import
+
+import capitalizeFirstLetter from 'helper-fn/dist/capitalizeFirstLetter' // or reduce size
+```
+
 
 [npm-url]: https://npmjs.org/package/helper-fn
 [npm-version-image]: https://badge.fury.io/js/helper-fn.svg
