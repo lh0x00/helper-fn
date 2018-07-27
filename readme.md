@@ -70,6 +70,15 @@ import { excludeObjectByKeys } from 'helper-fn' //use  default import
 import excludeObjectByKeys from 'helper-fn/dist/excludeObjectByKeys' // or reduce size
 ```
 
+### regexStringParser
+
+parse string with special characters to regex format [read more](https://github.com/lamhieu-vk/helper-fn/blob/master/examples/regexStringParser.md)
+
+```javascript
+import { regexStringParser } from 'helper-fn' //use  default import
+
+import regexStringParser from 'helper-fn/dist/regexStringParser' // or reduce size
+```
 
 [npm-url]: https://npmjs.org/package/helper-fn
 [npm-version-image]: https://badge.fury.io/js/helper-fn.svg
