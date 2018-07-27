@@ -60,6 +60,16 @@ import { capitalizeFirstLetter } from 'helper-fn' //use  default import
 import capitalizeFirstLetter from 'helper-fn/dist/capitalizeFirstLetter' // or reduce size
 ```
 
+### excludeObjectByKeys
+
+clone object from another object and exclude by keys, [read more](https://github.com/lamhieu-vk/helper-fn/blob/master/examples/excludeObjectByKeys.md)
+
+```javascript
+import { excludeObjectByKeys } from 'helper-fn' //use  default import
+
+import excludeObjectByKeys from 'helper-fn/dist/excludeObjectByKeys' // or reduce size
+```
+
 
 [npm-url]: https://npmjs.org/package/helper-fn
 [npm-version-image]: https://badge.fury.io/js/helper-fn.svg
