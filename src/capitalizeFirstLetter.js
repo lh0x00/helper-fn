@@ -6,7 +6,7 @@ import { handleError } from 'lib/util'
 /**
  * capitalize first letter
  */
-function capitalizeFirstLetter(string) {
+function capitalizeFirstLetter(string: string): string {
   if (!isString(string)) {
     handleError('first argument (string) must be a string')
     return string
