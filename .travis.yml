@@ -4,9 +4,7 @@ node_js:
   - 8
 install:
   - npm install
-before_script:
-  - npm run build
 script:
-  - npm run test
+  - npm test
 env:
-  - NODE_ENV=production
+  - NODE_ENV=TEST
