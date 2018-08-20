@@ -1,11 +1,10 @@
 # helper-fn
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/lamhieu-vk/helper-fn.svg)](https://greenkeeper.io/)
-
 [![npm version][npm-version-image]][npm-url]
 [![npm downloads][npm-downloads-image]][npm-url]
 [![github issues][github-issues-image]][github-issues-url]
 [![build status][travis-image]][npm-url]
+[![greenkeeper badge][greenkeeper-image]](https://greenkeeper.io/)
 
 some functions help you save time processing, easy to use!
 
@@ -88,3 +87,4 @@ import regexStringParser from 'helper-fn/dist/regexStringParser' // or reduce si
 [github-issues-image]: https://img.shields.io/github/issues/lamhieu-vk/helper-fn.svg
 [github-issues-url]: https://github.com/lamhieu-vk/helper-fn/issues
 [travis-image]: https://travis-ci.com/lamhieu-vk/helper-fn.svg?branch=master
+[greenkeeper-image]: https://badges.greenkeeper.io/lamhieu-vk/helper-fn.svg
